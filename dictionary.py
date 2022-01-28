@@ -1,3 +1,4 @@
+#For IDLE
 keys = [1, 2, 3, 4]
 values = ["Name", "Age", "Height", "Weight",]
 
@@ -15,3 +16,7 @@ print (assignment)
 del assignment [3]
 
 print(assignment)
+
+#prints out keys for assignment dictionary
+assignment.keys()
+assignment.values()
