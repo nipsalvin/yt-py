@@ -10,3 +10,8 @@ print (assignment)
 assignment[5] = "Location"
 
 print (assignment)
+
+#deleting values from assignment
+del assignment [3]
+
+print(assignment)
