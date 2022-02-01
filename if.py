@@ -1,4 +1,4 @@
-x = 32
+x = 33.9
 r = x % 2
 if r == 0:
     print("Even")
@@ -14,3 +14,9 @@ else:
     else:
         print("Less")
 
+if r == 1:
+    print("One")
+elif (r == 0):
+    print("Zero")
+else :
+    print("Error")
