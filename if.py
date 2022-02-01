@@ -1,0 +1,16 @@
+x = 32
+r = x % 2
+if r == 0:
+    print("Even")
+    if x > 30:
+        print("Greater")
+    else:
+        print("Less")
+
+else:
+    print("Odd")
+    if x > 3:
+        print("Greater")
+    else:
+        print("Less")
+
