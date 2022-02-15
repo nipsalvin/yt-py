@@ -18,7 +18,8 @@ b = 0
 for c in a:
     if c == val:
         print(b)
-    
+        break
+
     else:
         print("Not found")
         break
