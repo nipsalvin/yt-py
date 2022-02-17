@@ -1,6 +1,8 @@
+#different ways of creating an array
 from numpy import *
 #Array using array()
 #int specifies value type
+#using a float type converts all other values to float
 a = array([1,2,3,4,5.9],int)
 
 #prints type of values
@@ -13,4 +15,17 @@ print(a)
 #if you use without parts it will print 20 parts
 b = linspace(0,20,5)
 print(b)
+#you can use [n] to specify the value to be printed
+print(b[3])
 
+#Array using logspace()
+c = logspace(1,40,5)
+print(c)
+
+#Array using zeros() and ones()
+#to convert to int we use ,int
+d = zeros(5)
+e = ones(5,int)
+
+print(d)
+print(e)
