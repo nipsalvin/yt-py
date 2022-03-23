@@ -1,6 +1,3 @@
-from traceback import print_tb
-
-
 fname = input ("Enter First Name ")
 lname = input ("Enter Last Name ")
 

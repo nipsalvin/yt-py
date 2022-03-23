@@ -1,7 +1,4 @@
 #Defining the function
-from unittest import result
-
-
 def func():
     print("Yess")
 
