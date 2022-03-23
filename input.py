@@ -1,3 +1,6 @@
+from traceback import print_tb
+
+
 fname = input ("Enter First Name ")
 lname = input ("Enter Last Name ")
 
@@ -15,4 +18,10 @@ print (z)
 
 #prints evaluation
 result = eval(input("Enter marks? "))
-print(result)
+if result > 50:
+    print("pass")
+elif result == 50:
+    print("median")
+else:
+    print("Fail")
+#print(result)
