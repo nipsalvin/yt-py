@@ -1,7 +1,3 @@
-from json import load
-from re import X
-
-
 a = 10
 
 
