@@ -9,7 +9,7 @@ def local():
     print(id(a))
     x = globals()['a']
     print("Global 'a' in Local 'x'", x)
-    print(id(X))
+    print(id(x))
 
 local()
 print("Global", a)
