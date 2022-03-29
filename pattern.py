@@ -55,6 +55,7 @@ for i in range(1, 5):
 
     print(x[:i] + y[i-1:])
 
+print("My test")
 #My Test
 for a in range (4):
     for x in range(a + 1):
