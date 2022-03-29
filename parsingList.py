@@ -18,3 +18,4 @@ lst = [1,2,3,4,5,6,7,8,2,3,4,5,6,7,8]
 even, odd = count(lst)
 
 print (f"Even : {even}, Odd : {odd}")
+print (odd, even)
