@@ -1,11 +1,15 @@
-from numpy import *
+def count(lst):
+    more = [""]
+    less = [""]
 
-a = array([1,2,3,4])
+    for i in lst:
+        if len(i) <= 5:
+            print(f'{i} is less')
+        else:
+            print(f'{i} is more')
+    
 
-b = a.view()
-c = a.copy()
+lst = ["Alvin", "Nips", "Pips-by-Nips"]
 
-a[2] = 7
-print(a)
-print(b)
-print(c)
+
+count(lst)
