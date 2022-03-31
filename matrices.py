@@ -5,17 +5,17 @@ from numpy import *
 a = array([
     [1,2,3],
     [3,4,5]
-])
+        ])
 
-print(a)
+print("Default array a",a)
 #Prints the size of the array
-print(a.size)
+print("A-size is ",a.size)
 #Prints the number of rows/columns
-print(a.shape)
+print("A-Shape is ", a.shape)
 
 #Converts a 2D array into a 1D array
 b = a.flatten()
-print(b)
+print("b is a-flattened which is ",b)
 
 #Creating a multi dimensional array using matrix
 c = matrix([
@@ -24,12 +24,13 @@ c = matrix([
     [3,4,5,6]
 ])
 
-print (c)
+print ("c matrix is: ", c)
 
 d = matrix('1 2 3; 3 4 5; 6 7 8')
-e = matrix('1 2 3; 3 4 5; 6 7 8')
+e = matrix('2 3 4; 4 5 6; 7 8 9')
 #multiplying matrices
 x = d * e
 
-print(d)
-print("x is equal to \n" ,x)
+print("d matrix is: ",d)
+print("e matrix is: ",e)
+print("x (d*e) is equal to \n" ,x)
