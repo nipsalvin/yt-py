@@ -1,4 +1,4 @@
-name_list = [] #Create an emoty list
+name_list = [] #Create an empty list
 def solution(): #Create function
     n = int(input("Enter number here ")) #Create empty variable 'n' to get input(int) from user
     for a in range(1,1+n): #Iterate through the loop until values in 'a' are the same number as '1+n' 
