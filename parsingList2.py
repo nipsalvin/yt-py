@@ -14,6 +14,6 @@ def solution(): #Create function
         else:
             less.append(x) #if 'x' is less than 5 then 'less' list is appended
             print(x)
-    print("n is",n,"a is",a,"more is",more,"less is",less, "x is",x)
+    print("n is",n,". a is",a,". More is",more,". Less is",less, "x is",x)
     print(name_list)
 solution()
