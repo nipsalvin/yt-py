@@ -27,7 +27,7 @@ newArray = array(vals.typecode,(c for c in vals))
 for d in newArray:
     print(d)
 
-#creating new array with same values but new function
+#creating new array with same values but new function (Square root)
 newArray2 = array(vals.typecode,(e*e for e in vals))
 
 for f in newArray2:
