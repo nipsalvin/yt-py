@@ -39,7 +39,7 @@ for f in newArray2:
     print(f)
 print("Printing f that picks values from newArrays which gets values from vals but with function")
 
-#printing values of an array using while loop
+#printing values of an array using while loop.
 g = 0
 while g<len(newArray):
     print(newArray[g])
