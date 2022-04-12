@@ -21,11 +21,11 @@ y = People() #Creating object from class People
 y.name = "PinPin" #New definition of name (y.name)
 x.age = 30 #New definition of age (x.age)
 
-print(x.name, x.age)
-print(y.name, y.age)
+print("x.name, x.age is\n",x.name, x.age)
+print("y.name, y.age is\n",y.name, y.age)
 
 x.new() #New definition of x using function "new"
-print(x.name, x.age)
+print("x.name, x.age using x.new function.\n",x.name, x.age)
 
 x1 = People()
 y1 = People()
