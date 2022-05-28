@@ -11,8 +11,8 @@ class Student:
 
     class Laptop: #Creating an inner class
         def __init__(self):
-            self.brand = "HP\n"
-            self.cpu = "Core i5\n"
+            self.brand = "HP"
+            self.cpu = "Core i5"
             self.ram = 6
         
         def show(self):
@@ -23,6 +23,6 @@ s2 = Student("Pinpin", 3)
 s2.show()
 
 lap1 = Student.Laptop()#Creating an object (lap1) of inner class(Laptop) by calling it through the outter class (Student)
-lap1.show()
-lap2 = s1.lap
+lap1.show() #Prints data from show method from the inside class
+lap2 = s2.lap
 lap2.show()
