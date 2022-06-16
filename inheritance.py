@@ -29,7 +29,7 @@ class E(A,D): #This inherits from class A and class D (Multiple Inheritance)
     def feature10(self):
         print("Feature 10 working")
         
-v = A()
+v = A() #These are constructors
 w = B()
 x = C()
 y = D()
