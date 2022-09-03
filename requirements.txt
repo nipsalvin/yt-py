@@ -1,0 +1,17 @@
+asgiref==3.5.2
+atomicwrites==1.4.0
+attrs==21.4.0
+backports.zoneinfo==0.2.1
+colorama==0.4.5
+iniconfig==1.1.1
+mysql-connector==2.2.9
+numpy==1.22.4
+packaging==21.3
+pluggy==1.0.0
+py==1.11.0
+pyparsing==3.0.9
+pytest==7.1.2
+python-decouple==3.6
+sqlparse==0.4.2
+tomli==2.0.1
+tzdata==2022.1
